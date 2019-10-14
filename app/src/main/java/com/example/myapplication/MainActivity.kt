@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         buttonShowName.setOnClickListener{showName()}
     }
 
-    private fun showName(): View.OnClickListener? {
+    private fun showName() {
         textViewName.setText("Rachel Wong")
 
     }
